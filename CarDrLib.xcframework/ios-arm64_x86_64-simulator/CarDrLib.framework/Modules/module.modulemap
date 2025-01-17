@@ -1,0 +1,6 @@
+framework module CarDrLib {
+  umbrella header "CarDrLib.h"
+  export *
+
+  module * { export * }
+}

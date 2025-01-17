@@ -1,0 +1,226 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CarDrLib",
+    "printedName": "CarDrLib",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CarDrLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RepairClubSDK",
+        "printedName": "RepairClubSDK",
+        "declKind": "Import",
+        "moduleName": "CarDrLib"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "CarDrLib"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CarDrConnectionApi",
+        "printedName": "CarDrConnectionApi",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "carDrApi",
+            "printedName": "carDrApi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CarDrConnectionApi",
+                "printedName": "CarDrLib.CarDrConnectionApi",
+                "usr": "c:@M@CarDrLib@objc(cs)CarDrConnectionApi"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CarDrLib0aB13ConnectionApiC03carbE0ACvpZ",
+            "mangledName": "$s8CarDrLib0aB13ConnectionApiC03carbE0ACvpZ",
+            "moduleName": "CarDrLib",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CarDrConnectionApi",
+                    "printedName": "CarDrLib.CarDrConnectionApi",
+                    "usr": "c:@M@CarDrLib@objc(cs)CarDrConnectionApi"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CarDrLib0aB13ConnectionApiC03carbE0ACvgZ",
+                "mangledName": "$s8CarDrLib0aB13ConnectionApiC03carbE0ACvgZ",
+                "moduleName": "CarDrLib",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialConnect",
+            "printedName": "initialConnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CarDrLib0aB13ConnectionApiC14initialConnectyyF",
+            "mangledName": "$s8CarDrLib0aB13ConnectionApiC14initialConnectyyF",
+            "moduleName": "CarDrLib",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CarDrConnectionApi",
+                "printedName": "CarDrLib.CarDrConnectionApi",
+                "usr": "c:@M@CarDrLib@objc(cs)CarDrConnectionApi"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CarDrLib@objc(cs)CarDrConnectionApi(im)init",
+            "mangledName": "$s8CarDrLib0aB13ConnectionApiCACycfc",
+            "moduleName": "CarDrLib",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CarDrLib@objc(cs)CarDrConnectionApi",
+        "mangledName": "$s8CarDrLib0aB13ConnectionApiC",
+        "moduleName": "CarDrLib",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/arvindmehta\/Desktop\/CarDrLib\/CarDrLib\/CarDrConnectionApi.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8470,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}
