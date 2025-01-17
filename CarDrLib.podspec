@@ -18,21 +18,22 @@ Pod::Spec.new do |spec|
   # Specify the XCFramework
   spec.vendored_frameworks = 'CarDrLib.xcframework'
 
-  # Language and framework specifics
-  spec.swift_version = '5.0'
-
-
+  # Include all header files from the XCFramework
   spec.source_files = 'CarDrLib.xcframework/**/*.h'
-  
-  # Include all Swift files from the CarDrLib module (if needed)
-  spec.source_files += 'CarDrLib/**/*.swift' # Make sure to add any relevant Swift files
 
-  # Include all frameworks inside the XCFramework
-  spec.frameworks     = 'CoreBluetooth'
+  # Include all Swift files from the CarDrLib directory
+  spec.source_files = ['CarDrLib.xcframework/**/*.h', 'CarDrLib/**/*.swift']
 
-  # Link any required libraries
-  spec.libraries     = 'z', 'c++'
+  # Include the required frameworks
+  spec.frameworks = 'CoreBluetooth'
+
+  # Link required libraries
+  spec.libraries = 'z', 'c++'
 
   # Ensure ARC is enabled
   spec.requires_arc = true
+
+  # If the XCFramework includes any resource files (e.g., .bundle), include them as well
+   spec.resources = 'CarDrLib.xcframework/**/*.plist'
+
 end
