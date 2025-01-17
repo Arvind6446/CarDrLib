@@ -34,6 +34,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   # If the XCFramework includes any resource files (e.g., .bundle), include them as well
-   spec.resources = 'CarDrLib.xcframework/**/*.plist'
+   #spec.resources = 'CarDrLib.xcframework/**/*.plist'
 
 end
