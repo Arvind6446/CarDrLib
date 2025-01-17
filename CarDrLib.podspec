@@ -20,9 +20,19 @@ Pod::Spec.new do |spec|
 
   # Language and framework specifics
   spec.swift_version = '5.0'
-  spec.framework     = 'CoreBluetooth'
+
+
+  spec.source_files = 'CarDrLib.xcframework/**/*.h'
+  
+  # Include all Swift files from the CarDrLib module (if needed)
+  spec.source_files += 'CarDrLib/**/*.swift' # Make sure to add any relevant Swift files
+
+  # Include all frameworks inside the XCFramework
+  spec.frameworks     = 'CoreBluetooth'
+
+  # Link any required libraries
   spec.libraries     = 'z', 'c++'
 
-  # Exclude source files for binary-only distribution
-  spec.source_files = 'RepairClubSDK.xcframework/**/*.h','CarDrLib/CarDrConnectionApi.swift'
+  # Ensure ARC is enabled
+  spec.requires_arc = true
 end
