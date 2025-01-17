@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'CarDrLib'
-  spec.version      = '1.0.1'
+  spec.version      = '1.0.2'
   spec.homepage     = 'https://github.com/Arvind6446/CarDrLib'
   spec.authors      = { 'Arvind Mehta' => 'arvind@cardr.com' }
   spec.summary      = 'Base interface for CarDrLib devices'
