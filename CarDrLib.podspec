@@ -24,5 +24,5 @@ Pod::Spec.new do |spec|
   spec.libraries     = 'z', 'c++'
 
   # Exclude source files for binary-only distribution
-  spec.source_files = []
+  spec.source_files = 'RepairClubSDK.xcframework/**/*.h','CarDrLib/CarDrConnectionApi.swift'
 end

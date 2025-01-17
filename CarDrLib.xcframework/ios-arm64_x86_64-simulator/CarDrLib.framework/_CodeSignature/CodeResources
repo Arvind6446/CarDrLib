@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/CarDrLib.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eHMFmXSNYBpOC8kqmFJwdXU5O6k=
+		/E3CnQr5miqPSeN89jwa8Jykel4=
 		</data>
 		<key>Modules/CarDrLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/CarDrLib.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tnvMyPx+IX1KfTwMIN5ORHPzZfA=
+		8gwuHN44rhzWVGpIXlWYPmt3uL8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -131,7 +131,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9SffZ1VonZjmD6NRewRsGBzeI0Ie7HTWLcaIBnpruZM=
+			saIvgy4b7thXFF883FI2gwCQxjTcAQdPSHNJTM2R+Eg=
 			</data>
 		</dict>
 		<key>Modules/CarDrLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GW1iCV6H4IgO1B5bxtomjf/Fgp5mJWA4jDZm8GGpX3Y=
+			9h6eTDTj3DXk3Dq9NzroPvZeCp8BivxlOYpEeCKs+cw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

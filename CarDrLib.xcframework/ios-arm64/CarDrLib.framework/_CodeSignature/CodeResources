@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/RepairClubSDK.framework/RepairClubSDK</key>
 		<data>
-		EZPjXyjIthZMnM1Jh/Nqv0fwk8U=
+		aSB6G7mvQHie9pI+aBJIxKQXXh4=
 		</data>
 		<key>Frameworks/RepairClubSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/CarDrLib.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		s0iWLY5Wh1BJUbjb6U4x7cXVWMQ=
+		RpWscAs5oTd2tk7/grk8Wdh/aPg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BHy+vQKFl5bT8YhibUhxDQa33oKoF/P9T38L4MXeHSo=
+			VTPrxpcE8RDf84SsAPKYeCCj1WWYV4FFOoKuNR7HpbQ=
 			</data>
 		</dict>
 		<key>Frameworks/RepairClubSDK.framework/_CodeSignature/CodeResources</key>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fXDPziGsMoYwDw8/227mgG0TF1C/bp/7Vc88S7DanDU=
+			IKbm7L4/qsedydkquzj20MYHPjSiLaArvTBzUNKSjm8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
